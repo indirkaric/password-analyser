@@ -86,7 +86,7 @@ def generate_description():
         description += "Use numbers in your password\n"
     result['description'] = description
 
-def print_output() :
+def print_output():
     output = "Result\n"
     output += "Exists in common password list {0}\n".format(result['is_on_password_list'])
     output += "Normal password lenght {0}\n".format(result['is_lenght_normal'])
