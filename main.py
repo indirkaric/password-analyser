@@ -16,13 +16,13 @@ special_chars = [
 
 result = {
     "is_on_password_list": False,
-    "is_lenght_normal":False,
+    "is_lenght_normal": False,
     "length": 0,
     "special_charachters": 0,
     "numbers_in_pwd": 0,
     "lowercase": 0,
     "uppercase": 0,
-    "description":""
+    "description": ""
 }
 
 def load_password_list():
